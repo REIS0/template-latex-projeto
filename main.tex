@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{subfiles}
+\usepackage[portuguese]{babel}
+\usepackage[style=abnt-numeric]{biblatex}
+\usepackage{csquotes}
+% * Adiciona identacao no primeiro paragrafo da seçao
+% \usepackage{indentfirst}
+% * Usa fonte Times New Roman
+% \usepackage{pslatex}
+% * Edita bordas 
+% \usepackage{geometry}
+% \geometry{
+%     left=3cm,
+%     top=3cm,
+%     right=2cm,
+%     bottom=2cm
+% }
+% * Edita espaçamento do paragrafo
+% \setlength{\parindent}{1.5cm}
+
+\addbibresource{ref.bib}
+
+\title{Template}
+\date{2021-04-03}
+\author{REIS0}
+
+\begin{document}
+
+\subfile{sections/introducao.tex}
+
+\printbibliography
+
+\end{document}
